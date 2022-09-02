@@ -1,0 +1,41 @@
+.background{
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg");
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 70%;
+    backdrop-filter: blur(3px);
+    width: 35%;
+    color: rgba(200, 200, 200, 0.90)!important;
+}
+
+input{
+    background: transparent;
+    border: none;
+    color: rgba(200, 200, 200, 0.90);
+    width: 60%;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.90);
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    height: 3rem;
+    width: 40%;
+    background-color: rgba(200, 200, 200, 0.90);
+    border: none
+}
+
+a {
+    color: inherit !important; /* blue colors for links too */
+    text-decoration: none !important; /* no underline */
+}
+
+.fa-eye {
+    margin-left: -30px;
+    cursor: pointer;
+}
