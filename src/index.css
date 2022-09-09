@@ -1,14 +1,28 @@
+@media (max-width: 991.98px) {
+    .btn-w-md-100 {
+        width: 100% !important;
+    }
+    .h4-md {
+        font-size: 1.2rem;
+    }
+}
+
 .background{
     background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+h6{
+    margin-bottom: 0 !important;
+    margin-top: 0.5rem !important;
+}
+
 .box{
     background-color: rgba(0, 0, 0, 0.64);
     height: 70%;
     backdrop-filter: blur(3px);
-    width: 35%;
+    min-width: 35%;
     color: rgba(200, 200, 200, 0.90)!important;
 }
 
@@ -39,4 +53,9 @@ a {
 .fa-eye {
     margin-left: -30px;
     cursor: pointer;
+}
+
+.btn-bd-primary {
+    background-color: rgba(200, 200, 200, 0.90)!important;
+    padding: 0 !important;
 }
